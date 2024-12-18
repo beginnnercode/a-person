@@ -1,0 +1,108 @@
+
+.partONE{
+    background-color:#E3F2FD;
+    display:flex;
+  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.fire{
+   
+    height: 150px;
+}
+.passat{
+    height:300px;
+}
+.fireONE{
+    position: relative;
+    left:400px;
+    top:20px;
+}
+.fireTWO{
+    position: relative;
+    right:400px;
+}
+.titleTEXT{
+    text-align: center;
+}
+.text1{
+    
+        font-family: "Audiowide", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100px;
+      
+      
+}
+.min{
+    height:150px;
+    border-radius: 50%;
+}
+.partTWO img , .partTWO h2 , .partTWO p{
+        margin-bottom: 20px;
+}
+.partTWO{
+    margin-bottom: 0%;
+}
+
+
+
+.containerTHREE{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    width:100%;
+    gap:25px;
+    margin: 0 auto;
+    
+}
+.item1 img , .item3 img{
+    width:400px;
+    height: 300px;
+
+}
+.item1 , .item3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.item2 , .item4{
+    display:flex;
+    flex-wrap:wrap;
+    text-align: left;
+    margin-top:30px;
+}
+.item2 h3,.item4 h3{
+    color:#336699;
+    font-size: 23px;
+}
+.item2 p, .item4 p{
+    font-family: Merriweather, serif;
+    font-size: 20px;
+}
+
+
+.fourH2{
+    color:#003366;
+    margin-bottom: 40px;
+}
+.fourH3{
+    color:#336699;
+    margin-bottom: 40px;
+}
+.fourP{
+    font-family: Merriweather, serif;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.containerFIVE{
+    background-color:  #E3F2FD;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
